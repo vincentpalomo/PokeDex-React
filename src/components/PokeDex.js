@@ -6,7 +6,7 @@ const PokeDex = () => {
   const APIURL = 'https://pokeapi.co/api/v2/pokemon';
 
   const [pokemon, setPokemon] = useState('');
-  const [find, setFind] = useState('charmander');
+  const [find, setFind] = useState('150');
   const [image, setImage] = useState('');
   const [type, setType] = useState('');
   const [order, setOrder] = useState('');
@@ -69,6 +69,8 @@ const Wrapper = styled.div`
   justify-content: center;
   background: cornflowerblue;
   overflow: hidden;
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
 `;
 
 const Card = styled.div`
